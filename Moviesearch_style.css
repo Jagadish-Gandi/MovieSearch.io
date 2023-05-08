@@ -1,0 +1,71 @@
+      /* Set a max width for the page */
+      body {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: sans-serif;
+      }
+      /* Center the search form */
+      form {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+
+      /* Set the search input width to 100% on small screens */
+      @media (max-width: 480px) {
+        #movie-search {
+          width: 100%;
+        }
+      }
+
+      /* Create a grid layout for the search results */
+      #search-results {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-gap: 20px;
+      }
+
+      /* Style the movie divs */
+      .movie {
+        background-color: #f7f7f7;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      .movie h2 {
+        margin-top: 0;
+      }
+
+      .movie img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+	  
+	  #info{
+	  color:white;
+	  }
+	  
+	  body{
+	  background-color: black;
+	  }
+	  
+	  h1{
+	  color:goldenrod;
+	  font-weight:bold;
+    font-size: 60px;
+	  }
+	  label{
+	  color: white;
+	  font-weight: bold;
+	  }
+    
+body {
+  background-image: url("https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
