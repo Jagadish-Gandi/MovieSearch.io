@@ -52,10 +52,11 @@
 	  background-color: black;
 	  }
 	  
-	  h1{
+	  h1 a{
 	  color:goldenrod;
 	  font-weight:bold;
     font-size: 60px;
+    text-decoration: none;
 	  }
 	  label{
 	  color: white;
@@ -68,4 +69,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
+}
+#info {
+  color: white;
 }
