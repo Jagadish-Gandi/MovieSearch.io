@@ -22,4 +22,21 @@
           `;
           searchResults.appendChild(movieDiv);
         });
+      
       }
+
+      function changeColor() {
+        var info = document.getElementById("info");
+        var colors = ["white", "yellow", "#007C80", "skyblue", "#342D7E","#007C80"];
+        var currentColor = info.style.color;
+        var index = colors.indexOf(currentColor);
+        if (index === colors.length - 1) {
+            index = 0;
+        } else {
+            index++;
+        }
+        info.style.color = colors[index];
+    }
+    
+    setInterval(changeColor, 500);
+    
